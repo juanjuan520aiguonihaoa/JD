@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<script>
+			var oscript=document.createElement("script");
+			oscript.src="https://dd-search.jd.com/?terminal=pc&newjson=1&ver=2&zip=1&key=nihao&pvid=59f1452d608a4c1ab96b659b74f7ba68&t=1520945608931&curr_url=search.jd.com%2FSearch&search_key=%E5%A4%A7%E5%AE%B6%E5%A5%BD&callback=foo";
+			document.body.appendChild(oscript);
+			function foo(data){
+				console.log(data);
+			}
+		</script>
+	</body>
+</html>
